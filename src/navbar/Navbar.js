@@ -8,14 +8,14 @@ function Navbar() {
     <div class="Navbar">
         <header id="header" class="header fixed-top">
             <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-                <a href="#" class="logo d-flex align-items-center">
+                <a href="/" class="logo d-flex align-items-center">
                     <img src={asc} alt="Logo"/>
                 </a>
                 <nav id="navbar" class="navbar">
                     <ul>
-                        <li><Link to="/" style={{textDecoration: 'none'}}>Home</Link></li>
-                        <li><Link to="/product" style={{textDecoration: 'none'}}>Products</Link></li>
-                        <li><Link to="/about" style={{textDecoration: 'none'}}>About</Link></li>
+                        <li><Link to="/" style={{textDecoration: 'none'}}>Beranda</Link></li>
+                        <li><Link to="/product" style={{textDecoration: 'none'}}>Produk</Link></li>
+                        <li><Link to="/about" style={{textDecoration: 'none'}}>Tentang Kami</Link></li>
                     </ul>
                     <i class="bi bi-list mobile-nav-toggle"></i>
                 </nav>

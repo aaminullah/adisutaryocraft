@@ -1,0 +1,49 @@
+body {
+    background-color: #efefef;
+}
+
+.imgbg {
+    z-index: -1;
+    opacity: 0.05;
+    height: 75%;
+    
+}
+
+.row {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.col {
+    margin-top: 3rem;
+}
+
+.cont {
+    height: 100vh;
+    align-items: center;
+    text-align: right;
+}
+
+.logoAbout {
+    margin-top: 2rem;
+    height: 12rem;
+    display: block;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.story {
+    text-align: justify;
+    margin-right: 4rem;
+    font-size: large;
+    font-weight: 400;
+}
+
+.headerAbout {
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 6rem;
+}
