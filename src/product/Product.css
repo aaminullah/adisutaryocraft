@@ -1,0 +1,24 @@
+.headerProduct {
+    font-family: 'Caveat', cursive;
+    font-size: 350%;
+    color: #123d20;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #123d20;
+}
+
+a {
+    color: #123d20;
+    
+}
+
+.pcont {
+    margin-bottom: 3rem;
+}
+
+.card-title {
+    color: #123d20;
+}

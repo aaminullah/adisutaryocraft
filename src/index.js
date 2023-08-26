@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import './i18n';
 import Navbar from './navbar/Navbar';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -12,13 +12,15 @@ import Product from './product/Product';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Navbar /> */}
     <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/product" element={<Product />}></Route>
         <Route path="/about" element={<About />}></Route>
+        {/* <Route path="/eng/" element={<HomeEng />}></Route>
+        <Route path="/eng/product" element={<ProductEng />}></Route>
+        <Route path="/eng/about" element={<AboutEng />}></Route> */}
       </Routes>
     </BrowserRouter>
     {/* <App /> */}

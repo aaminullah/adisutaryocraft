@@ -2,6 +2,68 @@ body {
     background-color: #efefef;
 }
 
+.acont {
+    min-height: 100vh;
+}
+
+.acont2 {
+    background-color: #123d20;
+    min-height: 50vh;
+}
+
+.abimgbg {
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.05;
+}
+
+.headerAbout {
+    font-family: 'Caveat', cursive;
+    font-size: 350%;
+    color: #123d20;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.headerContact {
+    font-family: 'Caveat', cursive;
+    font-size: 350%;
+    color: #efefef;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.rowASC {
+    margin-top: 4rem;
+}
+
+.story {
+    text-align: justify;
+    color: #123d20;
+    margin-right: 2rem;
+    font-size: large;
+    font-weight: 400;
+}
+
+.logoAboutASC {
+    display: block;
+    margin: auto;
+    height: 65%;
+}
+
+
+
+
+
+
+
+
+
+/* CSS Ndajadi Dipake */
+
+/* 
 .imgbg {
     z-index: -1;
     opacity: 0.05;
@@ -46,4 +108,4 @@ body {
     text-align: center;
     box-sizing: border-box;
     padding-top: 6rem;
-}
+} */
