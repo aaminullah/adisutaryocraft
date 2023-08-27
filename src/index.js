@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './i18n';
@@ -12,18 +12,16 @@ import Product from './product/Product';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/product" element={<Product />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        {/* <Route path="/eng/" element={<HomeEng />}></Route>
-        <Route path="/eng/product" element={<ProductEng />}></Route>
-        <Route path="/eng/about" element={<AboutEng />}></Route> */}
-      </Routes>
-    </BrowserRouter>
-    {/* <App /> */}
+    <Suspense>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/product" element={<Product />}></Route>
+          <Route path="/about" element={<About />}></Route>
+        </Routes>
+      </BrowserRouter>
+    </Suspense>
   </React.StrictMode>
 );
 

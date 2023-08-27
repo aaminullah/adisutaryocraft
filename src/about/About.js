@@ -27,6 +27,45 @@ function About() {
           </div>
         </div>
       </div>
+      <div className="acont2">
+        <div className="row rowHC">
+          <div className="row headerHC">
+            <h1 className="txthc pt-4 pb-5 d-flex justify-content-center animate__animated animate__fadeInDown">Hubungi Kami</h1>
+          </div>
+          <div className="row contactHC pt-5 pb-5 d-flex justify-content-center">
+            <div className="col-md-3">
+              <div className="ic1 pb-4 d-flex justify-content-center">
+                <i class="ico fa-solid fa-location-dot fa-3x"></i>
+              </div>
+              <h5 className="d-flex justify-content-center text-align-justify">
+                <a className="text-decoration-none" target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/cFT1Jp5oitDPXYcX7">
+                  Dusun Gondang RT02 RW12 Nglebak, Tawangmangu, Karanganyar, Jawa Tengah
+                </a>
+              </h5>
+            </div>
+            <div className="col-md-3">
+              <div className="ic2 pb-4 d-flex justify-content-center">
+                <i class="ico fa-brands fa-whatsapp fa-3x"></i>
+              </div>
+              <h5 className="d-flex justify-content-center">
+                <a className="text-decoration-none" target="_blank" rel="noopener noreferrer" href="http://wa.me/6281215805269">
+                  +62 812-1580-5269
+                </a>
+              </h5>
+            </div>
+            <div className="col-md-3">
+              <div className="ic3 pb-4 d-flex justify-content-center">
+                <i class="ico fa-regular fa-envelope fa-3x"></i>
+              </div>
+              <h5 className="d-flex justify-content-center">
+                <a className="text-decoration-none" target="_blank" rel="noopener noreferrer" href="mailto:adisutaryocraft357@gmail.com">
+                  adisutaryocraft357@gmail.com
+                </a>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     
   );
